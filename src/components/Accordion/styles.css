@@ -1,0 +1,28 @@
+.wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  margin-top: 30px;
+  width: 500px;
+}
+
+.item {
+  background-color: #432874;
+  color: #ffffffde;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.acc-answer {
+  width: 100%;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
