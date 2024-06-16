@@ -2,13 +2,18 @@
 
 import "./App.css";
 import Accordion from "./components/Accordion";
+import RandomColor from "./components/Random-color";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Accordion />
+      {/* accordion */}
+      {/* <Accordion /> */}
+
+      {/* random colors generator */}
+      <RandomColor />
     </>
   );
 }
