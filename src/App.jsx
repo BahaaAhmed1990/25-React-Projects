@@ -3,6 +3,7 @@
 import "./App.css";
 import Accordion from "./components/Accordion";
 import RandomColor from "./components/Random-color";
+import RatingStar from "./components/rating-star";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,7 +14,10 @@ function App() {
       {/* <Accordion /> */}
 
       {/* random colors generator */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+
+      {/* star rating */}
+      <RatingStar noOfStars={10} />
     </>
   );
 }
