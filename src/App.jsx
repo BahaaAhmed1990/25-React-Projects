@@ -3,6 +3,7 @@
 import "./App.css";
 import Accordion from "./components/Accordion";
 import ImageSlider from "./components/Image-Slider";
+import LoadMoreProducts from "./components/Load-More-Products";
 import RandomColor from "./components/Random-color";
 import RatingStar from "./components/rating-star";
 
@@ -21,11 +22,14 @@ function App() {
       {/* <RatingStar noOfStars={10} /> */}
 
       {/* image slider */}
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      />
+      /> */}
+
+      {/* Load  more products*/}
+      <LoadMoreProducts />
     </>
   );
 }
