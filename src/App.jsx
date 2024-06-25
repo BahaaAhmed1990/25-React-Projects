@@ -7,6 +7,8 @@ import LoadMoreProducts from "./components/Load-More-Products";
 import RandomColor from "./components/Random-color";
 import TicTacToe from "./components/Tic-Tac-Toe";
 import RatingStar from "./components/rating-star";
+import TreeView from "./components/tree-view";
+import menus from "./components/tree-view/data";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -33,7 +35,10 @@ function App() {
       {/* <LoadMoreProducts /> */}
 
       {/* tic tac toe */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/* tree view */}
+      <TreeView menu={menus} />
     </>
   );
 }
