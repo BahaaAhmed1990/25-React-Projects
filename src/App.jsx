@@ -5,6 +5,7 @@ import Accordion from "./components/Accordion";
 import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
 import RandomColor from "./components/Random-color";
+import ScrollIndicator from "./components/Scroll-indicator";
 import TicTacToe from "./components/Tic-Tac-Toe";
 import LightDarkTheme from "./components/ligth-dark-mode";
 import QRCodeGenerator from "./components/qr-code-generator";
@@ -46,7 +47,10 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* light  dark theme */}
-      <LightDarkTheme />
+      {/* <LightDarkTheme /> */}
+
+      {/* scroll indicator */}
+      <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
     </>
   );
 }
