@@ -6,6 +6,7 @@ import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
 import RandomColor from "./components/Random-color";
 import TicTacToe from "./components/Tic-Tac-Toe";
+import LightDarkTheme from "./components/ligth-dark-mode";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RatingStar from "./components/rating-star";
 import TreeView from "./components/tree-view";
@@ -42,7 +43,10 @@ function App() {
       {/* <TreeView menu={menus} /> */}
 
       {/* qr code */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* light  dark theme */}
+      <LightDarkTheme />
     </>
   );
 }
