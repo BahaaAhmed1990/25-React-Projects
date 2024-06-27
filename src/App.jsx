@@ -4,6 +4,7 @@ import "./App.css";
 import Accordion from "./components/Accordion";
 import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
+import MoalParent from "./components/Modal/MoalParent";
 import RandomColor from "./components/Random-color";
 import ScrollIndicator from "./components/Scroll-indicator";
 import TabsParent from "./components/Tabs";
@@ -54,7 +55,10 @@ function App() {
       {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100" /> */}
 
       {/* tabs */}
-      <TabsParent />
+      {/* <TabsParent /> */}
+
+      {/* modal */}
+      <MoalParent />
     </>
   );
 }

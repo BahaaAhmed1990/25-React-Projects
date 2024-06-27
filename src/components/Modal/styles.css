@@ -1,0 +1,38 @@
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: lightgreen;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.modal-header {
+  width: 80%;
+  background-color: darkgoldenrod;
+  position: relative;
+  text-align: center;
+}
+.modal-close {
+  position: absolute;
+  right: 0;
+  top: 0%;
+  font-size: 40px;
+  color: white;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.modal-body {
+  text-align: center;
+  background-color: white;
+  height: 200px;
+  width: 80%;
+}
+.modal-footer {
+  width: 80%;
+  background-color: darkgoldenrod;
+  text-align: center;
+}
