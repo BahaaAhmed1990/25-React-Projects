@@ -6,6 +6,7 @@ import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
 import RandomColor from "./components/Random-color";
 import ScrollIndicator from "./components/Scroll-indicator";
+import TabsParent from "./components/Tabs";
 import TicTacToe from "./components/Tic-Tac-Toe";
 import LightDarkTheme from "./components/ligth-dark-mode";
 import QRCodeGenerator from "./components/qr-code-generator";
@@ -50,7 +51,10 @@ function App() {
       {/* <LightDarkTheme /> */}
 
       {/* scroll indicator */}
-      <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
+      {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100" /> */}
+
+      {/* tabs */}
+      <TabsParent />
     </>
   );
 }
