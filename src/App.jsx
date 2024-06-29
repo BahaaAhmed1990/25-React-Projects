@@ -2,6 +2,7 @@
 
 import "./App.css";
 import Accordion from "./components/Accordion";
+import GithubProfileFinder from "./components/Github-Profile-Finder";
 import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
 import MoalParent from "./components/Modal/MoalParent";
@@ -58,7 +59,10 @@ function App() {
       {/* <TabsParent /> */}
 
       {/* modal */}
-      <MoalParent />
+      {/* <MoalParent /> */}
+
+      {/* github profile finder  */}
+      <GithubProfileFinder />
     </>
   );
 }

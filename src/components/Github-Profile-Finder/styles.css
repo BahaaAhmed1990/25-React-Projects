@@ -1,0 +1,30 @@
+.github-profile-container {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+.search-container {
+  padding: 10px;
+}
+input[name="search-profile"] {
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  margin-right: 10px;
+  width: 250px;
+}
+.search-btn {
+  background-color: aquamarine;
+}
+.user-container {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+.avatar {
+  max-width: 200px;
+  border-radius: 50%;
+}
+.profile-name {
+  color: violet;
+}
