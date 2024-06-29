@@ -8,6 +8,7 @@ import LoadMoreProducts from "./components/Load-More-Products";
 import MoalParent from "./components/Modal/MoalParent";
 import RandomColor from "./components/Random-color";
 import ScrollIndicator from "./components/Scroll-indicator";
+import SearchAutocomplete from "./components/Search-Autocomplete";
 import TabsParent from "./components/Tabs";
 import TicTacToe from "./components/Tic-Tac-Toe";
 import LightDarkTheme from "./components/ligth-dark-mode";
@@ -62,7 +63,10 @@ function App() {
       {/* <MoalParent /> */}
 
       {/* github profile finder  */}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/* autocomplete search */}
+      <SearchAutocomplete />
     </>
   );
 }
