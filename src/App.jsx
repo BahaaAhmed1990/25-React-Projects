@@ -2,6 +2,8 @@
 
 import "./App.css";
 import Accordion from "./components/Accordion";
+import FeaturesFlag from "./components/Features-Flags";
+import FeaturesFlagGlobalState from "./components/Features-Flags/context";
 import GithubProfileFinder from "./components/Github-Profile-Finder";
 import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
@@ -66,7 +68,12 @@ function App() {
       {/* <GithubProfileFinder /> */}
 
       {/* autocomplete search */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      {/* features flag */}
+      <FeaturesFlagGlobalState>
+        <FeaturesFlag />
+      </FeaturesFlagGlobalState>
     </>
   );
 }
