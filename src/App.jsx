@@ -13,6 +13,7 @@ import ScrollIndicator from "./components/Scroll-indicator";
 import SearchAutocomplete from "./components/Search-Autocomplete";
 import TabsParent from "./components/Tabs";
 import TicTacToe from "./components/Tic-Tac-Toe";
+import UseOutsideClickHookExample from "./components/Use-Outside-Click-Hook";
 import UseFetchHookExample from "./components/UseFetchHook";
 import LightDarkTheme from "./components/ligth-dark-mode";
 import QRCodeGenerator from "./components/qr-code-generator";
@@ -77,7 +78,10 @@ function App() {
       </FeaturesFlagGlobalState> */}
 
       {/* useFetch hook */}
-      <UseFetchHookExample />
+      {/* <UseFetchHookExample /> */}
+
+      {/* use outside click custom hook */}
+      <UseOutsideClickHookExample />
     </>
   );
 }
