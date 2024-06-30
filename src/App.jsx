@@ -13,6 +13,7 @@ import ScrollIndicator from "./components/Scroll-indicator";
 import SearchAutocomplete from "./components/Search-Autocomplete";
 import TabsParent from "./components/Tabs";
 import TicTacToe from "./components/Tic-Tac-Toe";
+import UseFetchHookExample from "./components/UseFetchHook";
 import LightDarkTheme from "./components/ligth-dark-mode";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RatingStar from "./components/rating-star";
@@ -71,9 +72,12 @@ function App() {
       {/* <SearchAutocomplete /> */}
 
       {/* features flag */}
-      <FeaturesFlagGlobalState>
+      {/* <FeaturesFlagGlobalState>
         <FeaturesFlag />
-      </FeaturesFlagGlobalState>
+      </FeaturesFlagGlobalState> */}
+
+      {/* useFetch hook */}
+      <UseFetchHookExample />
     </>
   );
 }
