@@ -9,6 +9,8 @@ import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
 import MoalParent from "./components/Modal/MoalParent";
 import RandomColor from "./components/Random-color";
+import ScrollToTopAndBottom from "./components/Scroll-To-Top-And-Bottom";
+import ScrollToSection from "./components/Scroll-To-Top-And-Bottom/ScrollToSection";
 import ScrollIndicator from "./components/Scroll-indicator";
 import SearchAutocomplete from "./components/Search-Autocomplete";
 import TabsParent from "./components/Tabs";
@@ -85,7 +87,13 @@ function App() {
       {/* <UseOutsideClickHookExample /> */}
 
       {/* use window resize hook */}
-      <WindowResizeHook />
+      {/* <WindowResizeHook /> */}
+
+      {/* scroll to top and bottom */}
+      {/* <ScrollToTopAndBottom /> */}
+
+      {/* scroll to section */}
+      <ScrollToSection />
     </>
   );
 }
