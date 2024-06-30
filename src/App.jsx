@@ -14,6 +14,7 @@ import SearchAutocomplete from "./components/Search-Autocomplete";
 import TabsParent from "./components/Tabs";
 import TicTacToe from "./components/Tic-Tac-Toe";
 import UseOutsideClickHookExample from "./components/Use-Outside-Click-Hook";
+import WindowResizeHook from "./components/Use-Window-Resize-Hook";
 import UseFetchHookExample from "./components/UseFetchHook";
 import LightDarkTheme from "./components/ligth-dark-mode";
 import QRCodeGenerator from "./components/qr-code-generator";
@@ -81,7 +82,10 @@ function App() {
       {/* <UseFetchHookExample /> */}
 
       {/* use outside click custom hook */}
-      <UseOutsideClickHookExample />
+      {/* <UseOutsideClickHookExample /> */}
+
+      {/* use window resize hook */}
+      <WindowResizeHook />
     </>
   );
 }
