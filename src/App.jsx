@@ -8,6 +8,7 @@ import GithubProfileFinder from "./components/Github-Profile-Finder";
 import ImageSlider from "./components/Image-Slider";
 import LoadMoreProducts from "./components/Load-More-Products";
 import MoalParent from "./components/Modal/MoalParent";
+import PanZoomImage from "./components/PanZoomImage";
 import RandomColor from "./components/Random-color";
 import ScrollToTopAndBottom from "./components/Scroll-To-Top-And-Bottom";
 import ScrollToSection from "./components/Scroll-To-Top-And-Bottom/ScrollToSection";
@@ -93,7 +94,10 @@ function App() {
       {/* <ScrollToTopAndBottom /> */}
 
       {/* scroll to section */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      {/* pan and zoom  Image */}
+      <PanZoomImage />
     </>
   );
 }
