@@ -14,6 +14,7 @@ import ScrollToTopAndBottom from "./components/Scroll-To-Top-And-Bottom";
 import ScrollToSection from "./components/Scroll-To-Top-And-Bottom/ScrollToSection";
 import ScrollIndicator from "./components/Scroll-indicator";
 import SearchAutocomplete from "./components/Search-Autocomplete";
+import SideBar from "./components/SideBar";
 import TabsParent from "./components/Tabs";
 import TicTacToe from "./components/Tic-Tac-Toe";
 import UseOutsideClickHookExample from "./components/Use-Outside-Click-Hook";
@@ -56,7 +57,7 @@ function App() {
       {/* <TreeView menu={menus} /> */}
 
       {/* qr code */}
-      {/* <QRCodeGenerator /> */}
+      <QRCodeGenerator />
 
       {/* light  dark theme */}
       {/* <LightDarkTheme /> */}
@@ -97,7 +98,10 @@ function App() {
       {/* <ScrollToSection /> */}
 
       {/* pan and zoom  Image */}
-      <PanZoomImage />
+      {/* <PanZoomImage /> */}
+
+      {/* animated sidebar */}
+      {/* <SideBar /> */}
     </>
   );
 }

@@ -26,7 +26,7 @@ function QRCodeGenerator() {
         </button>
       </div>
       <div>
-        <QRCode value={qrCode} size={400} bgColor="#fff" />
+        <QRCode value={qrCode} size={200} bgColor="#fff" />
       </div>
     </div>
   );
