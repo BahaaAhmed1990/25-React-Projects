@@ -2,6 +2,7 @@
 
 import "./App.css";
 import Accordion from "./components/Accordion";
+import DualSlider from "./components/DualSlider/DualSlider";
 import FeaturesFlag from "./components/Features-Flags";
 import FeaturesFlagGlobalState from "./components/Features-Flags/context";
 import GithubProfileFinder from "./components/Github-Profile-Finder";
@@ -57,7 +58,7 @@ function App() {
       {/* <TreeView menu={menus} /> */}
 
       {/* qr code */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
 
       {/* light  dark theme */}
       {/* <LightDarkTheme /> */}
@@ -102,6 +103,9 @@ function App() {
 
       {/* animated sidebar */}
       {/* <SideBar /> */}
+
+      {/* dual slider  */}
+      <DualSlider />
     </>
   );
 }
